@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мои ссылки</title>
+    <title>Мои ссылки и боты</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background: linear-gradient(120deg, #1a2a6c, #b21f1f, #fdbb2d);
+            background: linear-gradient(120deg,#1a2a6c,#b21f1f,#fdbb2d);
             color: white;
             margin: 0;
             padding: 50px;
@@ -21,3 +21,26 @@
             width: 250px;
             margin: 10px auto;
             padding: 15px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: background 0.3s;
+        }
+        .link-button:hover {
+            background: rgba(255,255,255,0.4);
+        }
+    </style>
+</head>
+<body>
+    <h1>Мои ссылки</h1>
+    <a class="link-button" href="https://replit.com/@igajnutdinov95" target="_blank">Мой Replit</a>
+    <a class="link-button" href="https://github.com/ildar937" target="_blank">Мой GitHub</a>
+    <a class="link-button" href="https://kwork.ru/seller" target="_blank">Мой Kwork</a>
+    <a class="link-button" href="https://www.avito.ru" target="_blank">Avito</a>
+    <a class="link-button" href="https://youdo.com" target="_blank">YouDo</a>
+    <!-- Пример кнопки для будущих ботов -->
+    <a class="link-button" href="https://t.me/имя_бота" target="_blank">Мой бот</a>
+</body>
+</html>
